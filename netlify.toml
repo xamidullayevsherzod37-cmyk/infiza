@@ -2,7 +2,7 @@
 [build]
   command = "/"            
   publish = "/"        
-  publish = "netlify/function"      
+functions = "netlify/functions"      
 
 [build.environment]
   NODE_VERSION = "18"      
