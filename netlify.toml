@@ -1,0 +1,28 @@
+
+[build]
+  command = "/"            
+  publish = "/"        
+  publish = "netlify/function"      
+
+[build.environment]
+  NODE_VERSION = "18"      
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+
+# Headers
+[[headers]]
+for = "/*" # Apply to all paths
+[headers.values]
+X-Frame-Options = "DENY"
+ X-Content-Type-Options = "nosniff"
+# Edge Functions declarations (if not declared inline)
+
+[[edge_functions]]
+ function = "my-edge-function"
+ path = "/api/*"
+excludedPath = "/api/admin/*" # Exclude specific paths
