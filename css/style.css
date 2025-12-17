@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  /* background-color: black; */
   margin: 0 auto;
   padding: 0 60px;
 }
@@ -28,6 +28,18 @@
   padding-top: 1px;
 } */
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: rgba(87, 184, 255, 1);
+}
+
+.logo-word {
+  font-size: 20px;
+}
+
 .left-btns {
   display: flex;
   gap: 60px;
@@ -35,7 +47,7 @@
 
 .home {
   text-decoration-line: none;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(87, 184, 255, 1);
 }
 
 .home:hover {
@@ -44,7 +56,7 @@
 
 .about {
   text-decoration-line: none;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(87, 184, 255, 1);
 }
 
 .about:hover {
@@ -53,7 +65,7 @@
 
 .team {
   text-decoration-line: none;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(87, 184, 255, 1);
 }
 
 .team:hover {
@@ -70,6 +82,18 @@
   background-color: rgba(87, 184, 255, 1);
   margin: 0 auto;
   padding: 0 60px;
+}
+#light-dark {
+  background-color: transparent;
+  border: none;
+}
+
+.dark {
+  background: black;
+}
+
+.dark * {
+  color: white !important;
 }
 
 .contact-us-btn {
@@ -134,7 +158,7 @@
   display: block;
   justify-content: end;
   align-items: center;
-  background-color: black;
+  /* background-color: black; */
   padding: 100px 0 100px 60px;
 }
 
@@ -181,24 +205,55 @@
   color: rgba(225, 225, 255, 1);
 }
 
-.view-our-team {
-  text-decoration-line: none;
+.view-our-team-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba(87, 184, 255, 1);
+  border: 2px solid rgba(87, 184, 255, 1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.view-our-team-btn:hover {
   color: white;
+  background-color: rgba(87, 184, 255, 1);
+  border: 2px solid white;
+}
+
+/* .view-our-team {
+  text-decoration-line: none;
+  color: black;
+}
+
+.view-our-team:hover {
+  text-decoration-line: none;
+  color: white !important;
+  background-color: rgba(87, 184, 255, 1);
 }
 
 .view-our-team-btn {
-  background-color: black;
+  background-color: white;
   padding: 21px 34px;
-  border: none;
+  border: 1px solid rgba(87, 184, 255, 1);
   transition: all 0.5s ease;
 }
 
 .view-our-team-btn:hover {
+  color: white !important;
+  background-color: rgba(87, 184, 255, 1);
+} */
+
+/* .view-our-team-btn:hover {
   background-color: rgba(87, 184, 255, 1);
   padding: 21px 34px;
   border: 2px solid rgb(89, 89, 247);
-  color: black;
-}
+  color: black !important;
+} */
 
 /* nav-right-img */
 .nav-right {
