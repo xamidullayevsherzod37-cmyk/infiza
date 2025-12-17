@@ -225,36 +225,6 @@
   border: 2px solid white;
 }
 
-/* .view-our-team {
-  text-decoration-line: none;
-  color: black;
-}
-
-.view-our-team:hover {
-  text-decoration-line: none;
-  color: white !important;
-  background-color: rgba(87, 184, 255, 1);
-}
-
-.view-our-team-btn {
-  background-color: white;
-  padding: 21px 34px;
-  border: 1px solid rgba(87, 184, 255, 1);
-  transition: all 0.5s ease;
-}
-
-.view-our-team-btn:hover {
-  color: white !important;
-  background-color: rgba(87, 184, 255, 1);
-} */
-
-/* .view-our-team-btn:hover {
-  background-color: rgba(87, 184, 255, 1);
-  padding: 21px 34px;
-  border: 2px solid rgb(89, 89, 247);
-  color: black !important;
-} */
-
 /* nav-right-img */
 .nav-right {
   max-width: 720px;
@@ -270,14 +240,13 @@
 .main-contener {
   max-width: 1440px;
   width: 100%;
-  /* height: 542px; */
   margin: 0 auto;
 }
 
 .sponsers {
   max-width: 1440px;
   width: 100%;
-  height: 542px;
+  padding: 130px 60px;
   background-color: rgba(253, 208, 74, 1);
   margin: 0 auto;
   display: flex;
@@ -404,7 +373,7 @@
 .stop-shop {
   max-width: 1440px;
   width: 100%;
-  height: 1072px;
+  padding: 130px 60px;
   margin: 0 auto;
   background-image: url("../imeges/background-gaming-needs.svg");
   display: flex;
@@ -687,7 +656,7 @@
 .footer-contener {
   max-width: 1440px;
   width: 100%;
-  height: 690px;
+  padding: 130px 60px;
   margin: 0 auto;
   padding: 100px;
   background-image: url("../imeges/footer.svg");
